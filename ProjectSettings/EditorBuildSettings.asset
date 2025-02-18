@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: e78dea831f27b784caa2d49d23ef4a9e
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/TeamComp.unity
+    guid: 8a2f207797168314bbb04418c4b8f0a6
+  - enabled: 1
+    path: Assets/Scenes/Maps/Arena.unity
+    guid: 2836afaf7e552fd4db7cc2c129a18953
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 1e9c9ce139b48714992dabbc2a0911cd
+  - enabled: 1
+    path: Assets/Scenes/MonsterModels/Dangel.unity
+    guid: b164ce735a424174a962014543929554
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 3b861add5fc93bb4eb047ad9cf58386e
+  - enabled: 0
+    path: Assets/Scenes/ErrorDisplay.unity
+    guid: c2de96e52612682488ff465aa866514a
+  - enabled: 1
+    path: Assets/Scenes/MonsterModels/Grim_Lean.unity
+    guid: e62cb7ecb66361a4b956b5f59356a9f1
+  - enabled: 1
+    path: Assets/Scenes/Maps/Ground.unity
+    guid: 7c3c4045d3710ab44af45bc3cc1c7a7d
+  - enabled: 1
+    path: Assets/Scenes/MonsterModels/Projectile.unity
+    guid: 5f17ace5efb8b474591a0120e84e201f
+  - enabled: 1
+    path: Assets/Scenes/MonsterModels/Skeleton.unity
+    guid: 9b848749ebe9e9942a1520bfa38e3739
+  - enabled: 1
+    path: Assets/Scenes/TileMap.unity
+    guid: 36c2dab24589b794d9edd8dd910fba59
+  - enabled: 1
+    path: Assets/Scenes/Tuto.unity
+    guid: eb436bae157ef1a45a51ca1abb9f07c5
+  - enabled: 1
+    path: Assets/Scenes/MonsterModels/Vegetable.unity
+    guid: 088556403cf5c824288e8ae235b605e7
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 73446a50079f14740a8f6068c977bac1
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 4e619e7b2bde8354e9052f371f4d4c56
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
