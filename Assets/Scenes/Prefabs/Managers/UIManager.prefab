@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7849841967907389308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877788882924585764}
+  - component: {fileID: 8642856889554907217}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877788882924585764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7849841967907389308}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 762.06506, y: 165.3439, z: -3.8509057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8642856889554907217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7849841967907389308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd35a83048b83d42b7d1393ccd9c541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlueTeamInitPrefab: {fileID: 0}
+  RedTeamInitPrefab: {fileID: 0}
+  BlueTeamInitUX: {fileID: 4765001796065542360, guid: 2f6cb7f219a15684893c4d4a942db71f, type: 3}
+  RedTeamInitUX: {fileID: 5035966995266056979, guid: e057365dc0be98e43ac2edcc5cd50aab, type: 3}
+  BlueTurn: 1
+  PlayerTurnDisplayPrefab: {fileID: 4504527803852150108, guid: ff536ffb16936fa478458993cc721deb, type: 3}
+  TurnAnnouncementDisplayPrefab: {fileID: 3465377182124352022, guid: 2b603947b8358c3448181c345576a486, type: 3}
+  Player1Display: {fileID: 0}
+  Player2Display: {fileID: 0}
+  ErrorMessagePrefab: {fileID: 8931043180880012714, guid: 6ce6f499a21386448859ec302fd572d3, type: 3}
