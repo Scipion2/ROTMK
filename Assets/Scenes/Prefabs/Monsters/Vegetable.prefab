@@ -209,7 +209,7 @@ MonoBehaviour:
   MoveRange: 2
   PosToGo: {x: 0, y: 0}
   isWalking: 0
-  Base: {fileID: -7878615501796748026, guid: 02146c12c580aef438e8fbf004fadc88, type: 3}
+  Base: {fileID: 3700394063241270831, guid: 02146c12c580aef438e8fbf004fadc88, type: 3}
   Special: {fileID: -1641571304097954882, guid: 62bc1274c88346b4f994c000913aeb39, type: 3}
   InvokableAnimator: {fileID: 7375129837679396370}
   MonsterSprite: {fileID: 2995404906876192432}

@@ -8,7 +8,7 @@ public class TeamSelectContentManager : MonoBehaviour
     [Header("UI Components")]
         [SerializeField] private TextMeshProUGUI Header;
         [SerializeField] private TextMeshProUGUI Instructions;
-        [SerializeField] private Button ConfirmButton;
+        [SerializeField] private Button ConfirmButton,RandomButton;
         [SerializeField] private Transform Body;
 
     [Header("Monster Datas")]
@@ -48,6 +48,7 @@ public class TeamSelectContentManager : MonoBehaviour
         {
 
             ConfirmButton.gameObject.SetActive(isDisplayed);
+            RandomButton.gameObject.SetActive(!isDisplayed);
 
         }//Display Confirmaton Button
 
@@ -62,6 +63,23 @@ public class TeamSelectContentManager : MonoBehaviour
             }
 
         }//Reset Display
+
+
+    //RANDOMIZER
+
+        public void SelectRandomMembers()
+        {
+
+            for(;MonsterManager.instance.GetMonsterCount()<TeamManager.instance.GetTeamSize();)
+            {
+
+                int SlotNumber;
+                for(SlotNumber=Random.Range(0,MonstersSlot.Length);MonstersSlot[SlotNumber].isItSelected();SlotNumber=Random.Range(0,MonstersSlot.Length)){}
+                MonstersSlot[SlotNumber].OnClickInvokable();
+
+            }
+
+        }
 
 
     public static TeamSelectContentManager instance;

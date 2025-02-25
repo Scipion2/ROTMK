@@ -96,6 +96,7 @@ public class TeamManager : MonoBehaviour
 
         }//Confirm and set the team selected
 
+
     //TEAM SPAWN FUNC
         public void SpawnMonster(string MonsterToSpawn,Vector2 SpawnPlace)
         {

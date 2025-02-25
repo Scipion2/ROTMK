@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Skill : MonoBehaviour
+public abstract class Skill : MonoBehaviour
 {
     
 	[SerializeField] protected string SkillName=null;
@@ -23,11 +23,6 @@ public class Skill : MonoBehaviour
 	public int GetRange(){return MaxRange;}//Getter for Range
 	public string GetName(){return SkillName;}//Getter for SkillName
 
-	public void Launch()
-	{
-
-		//
-
-	}
+	public abstract void Launch();
 
 }

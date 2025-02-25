@@ -15,6 +15,8 @@ public class MonsterManager : MonoBehaviour
 
     //GETTERS
 
+        public int GetMonsterCount(){return SelectedMonstersCount;}//Getter For SelectedMonstersCount
+
         public Invokable GetMonsterByName(string name)
         {
 

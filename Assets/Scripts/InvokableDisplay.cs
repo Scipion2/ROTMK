@@ -30,6 +30,7 @@ public class InvokableDisplay : MonoBehaviour
     //GETTERS
 
         public bool isItSpawned(){return isSpawned;}//Getter for isSpawned
+        public bool isItSelected(){return isSelected;}//Getter For isSelected
         public string GetInvokable(){return Monster;}//Getter for Monster
 
     //SETTERS

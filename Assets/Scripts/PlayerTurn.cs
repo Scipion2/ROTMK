@@ -52,6 +52,15 @@ public class PlayerTurn : MonoBehaviour
 
         }//Set the selected action details
 
+    //ESSENTIALS
+
+        public void OnAwake()
+        {
+
+            UIManager.instance.SetPlayerTurnDisplay(this);
+
+        }
+
     //DISPLAYER
 
         public void DisplayMonster(string MonsterName)

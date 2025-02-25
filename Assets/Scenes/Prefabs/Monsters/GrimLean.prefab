@@ -202,14 +202,15 @@ MonoBehaviour:
   Slot: 0
   Portrait: {fileID: 6129740000586127769, guid: c718f57655f86524a908c00d543b7feb, type: 3}
   DeadSprite: {fileID: 6407067933638562136, guid: 05638036467f13f4d8ae2b2e88e63667, type: 3}
+  isDead: 0
   move: 1
   baseAction: 1
   specialAction: 1
   MoveRange: 2
   PosToGo: {x: 0, y: 0}
   isWalking: 0
-  Base: {fileID: 4446852386078476090, guid: 2899e5d45f43b8f4c94f2928c6cbf497, type: 3}
-  Special: {fileID: -2687605986440179828, guid: 21e3f187f87f965469fb6ffda69c0db1, type: 3}
+  Base: {fileID: -5039776060040180904, guid: 2899e5d45f43b8f4c94f2928c6cbf497, type: 3}
+  Special: {fileID: 2818669249197495184, guid: 21e3f187f87f965469fb6ffda69c0db1, type: 3}
   InvokableAnimator: {fileID: 7453840828648727853}
   MonsterSprite: {fileID: 1883813456097182658}
   Class: 0
